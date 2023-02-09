@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CheckerboardTest {
+    
     private Checkerboard underTest;
 
     @BeforeEach
