@@ -29,7 +29,7 @@ class CheckerboardTest {
     }
 
     @Test
-    public void testRedeemCoupons() {
+    public void redeemCouponsHappyPathTest() {
         Checkerboard checkerboard = new Checkerboard();
         ArrayList<Coupon> coupons = checkerboard.coupons;
         checkerboard.calculatePoints();
@@ -45,7 +45,7 @@ class CheckerboardTest {
     }
 
     @Test
-    public void testCalculatePoints() {
+    public void calculatePointsHappyPathTest() {
         underTest.calculatePoints();
         assertPointsAreZero();
 
